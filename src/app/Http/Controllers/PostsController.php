@@ -55,4 +55,5 @@ public function update($post_id, Request $request)
 
     return redirect()->route('posts.show', ['post' => $post]);
 }
+
 }
